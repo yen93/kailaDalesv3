@@ -258,8 +258,13 @@ h1 {
 }
 
 .socialsdiv {
-  height: 20px;
   text-align: center;
+  background-color: grey;
+  padding: 10px;
+}
+
+.socialsdiv img {
+  height: 30px;
 }
 
 .socials {
