@@ -107,7 +107,7 @@ h1 {
   position: relative;
   background-color: black;
   z-index: 1;
-  background: linear-gradient(to bottom, black, transparent), url("images/bg.png") no-repeat cover;
+  background: linear-gradient(to bottom, black, transparent), url("images/bg.png") no-repeat;
 }
 
 .quote {
