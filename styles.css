@@ -309,9 +309,12 @@ h1 {
     font-size: 10rem;
   }
 
-  .div1 {
-    margin: 0;
-    padding: 0;
+ #div1 {
+    background-image: none;
+  }
+
+  .div3 {
+    background-image: none;
   }
 
   .centerElement {
