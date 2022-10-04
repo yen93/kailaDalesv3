@@ -282,18 +282,31 @@ h1 {
 
 
 /* Media Queries */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   nav {
     font-size: 2rem;
   }
 
   nav button {
-    height: 100px;
+    height: 150px;
+    width: 150px;
   }
-  
+
+  .navbar-toggler-icon {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav p {
+    font-size: 3rem;
+  }
+
   h1 {
     margin: 0;
     padding: 0;
+    font-size: 7rem;
   }
 
   .div1 {
@@ -317,20 +330,26 @@ h1 {
     right: 10%;
     padding: 0;
     margin: 0;
+    border: none;
   }
 
   #div2 {
-    height: 50%;
+    position: relative;
+    height: auto;
+  }
+
+  #div2 h2{
+    position: relative;
+    height: auto;
   }
 
   .paintings {
+    position: relative;
     height: auto;
-    top: 20%;
   }
 
   .btn {
-    position: absolute;
-    top: 40%;
+    display: none;
   }
 
   .quote p {
