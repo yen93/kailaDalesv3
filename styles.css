@@ -326,14 +326,15 @@ h1 {
     width: 50%;
   }
 
-  .role {
+ .role {
     position: absolute;
     width: 30%;
     top: 20%;
     right: 10%;
     padding: 0;
     margin: 0;
-    border: none;
+    border-left: none;
+    border-right: solid grey;
   }
 
   #div2 {
@@ -356,11 +357,11 @@ h1 {
   }
 
   .quote p {
-    padding-top: 10%;
+    padding: 10px;
+    font-size: 5rem;
   }
 
   .quote2 p {
-    font-size: 2rem;
-    padding-right: 0;
+    font-size: 5rem;
   }
 }
